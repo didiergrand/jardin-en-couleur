@@ -4,7 +4,7 @@ This is the first project for the Front End Web Developer Nanodegree Program fro
 
 This project is related to the 2nd point of the course : CSS, Website Layout, Website Components
 
-**The theme is : Personal Blog Website**
+The theme is : **Personal Blog Website**
 Use your new skills with HTML and CSS to build a personal blog website, complete with a main page and example blog posts!
 
 ## Technologies
