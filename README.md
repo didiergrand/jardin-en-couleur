@@ -7,34 +7,34 @@ This project is related to the 2nd point of the course : CSS, Website Layout, We
 **The theme is : Personal Blog Website**
 Use your new skills with HTML and CSS to build a personal blog website, complete with a main page and example blog posts!
 
-##Technologies
+## Technologies
 
 HTML
 CSS
 
-##Project Specification
+## Project Specification
 
-###CSS Separate From HTML
+### CSS Separate From HTML
 Portfolio completely separates structure from design/style.
 There are no attributes present in the body of the document.
 There are no elements in the document.
 
-###CSS Imports
+### CSS Imports
 There should be at least 3 imported files in the main CSS file, but the student is welcome to break it down even further if that makes it easier for them.
 
-###Directories & Files
+### Directories & Files
 
 Files are organized with a directory structure that separates files based on page and functionality.
 
-###Links
+### Links
 There is an intentional user flow on each page with appropriate links as needed.
 
-##Design
+## Design
 
-###Custom Design
+### Custom Design
 Custom images, layout, and styling.
 
-###Foundations/Building Blocks
+### Foundations/Building Blocks
 
   Typography: Custom design for typography with **at least 3 unique properties for each typography selector** :
         - Headers (h1 to h3 at minimum) <h1>
@@ -47,7 +47,7 @@ Custom images, layout, and styling.
 
     Colors: At least 3 colors are used.
 
-###Components
+### Components
 
 The following are used in the webpage:
 
@@ -56,7 +56,7 @@ The following are used in the webpage:
     - Buttons
     - Card
 
-###Patterns
+### Patterns
 
 The general pattern of the webpage should be as follows:
 
@@ -80,39 +80,39 @@ The general pattern of the webpage should be as follows:
             - Facebook
             - LinkedIn
 
-##Pages
+## Pages
 
 The following pages should be present:
 
     - Blog Homepage
     - Blog Post
 
-##Layout
+## Layout
 
-###Flexbox Based Layout
+### Flexbox Based Layout
 
 Uses Flexbox at least twice throughout the project to create a component or pattern
 
-###Grid Based Layout
+### Grid Based Layout
 
 Uses CSS Grid at least twice throughout the project to create the layout for pages
 
-##Responsiveness
+## Responsiveness
 
-###Multi-Device Web Design
+### Multi-Device Web Design
 
 Pages are mobile-friendly and display correctly on all display sizes (mobile, tablet, desktop).
 
 Note: You can simulate Mobile Devices with Device Mode in Chrome DevTools.
 
-##Quality
+## Quality
 
-###Valid HTML
+### Valid HTML
 
     - HTML5 semantic tags such as <header>, <footer>, <article>, <section> , etc. are used to add meaning to the code.
     - No div or section selectors are without a CSS class or id.
 
-###HTML Formatting Rules
+### HTML Formatting Rules
 
     - All code is lowercase
     - The code does not have trailing white spaces.
@@ -120,14 +120,14 @@ Note: You can simulate Mobile Devices with Device Mode in Chrome DevTools.
     - Code uses a new line for every block, list or table element and indent every such child element (it is acceptable to put all elements in one line).
     - When quoting attribute values, code uses consistent quotation marks (single vs. double).
 
-###HTML Style Rules
+### HTML Style Rules
 
 
     - HTML documents HTML5 <!doctype html>
     - Code omits type attributes for style sheets and scripts.
     - [Optional] Code does not use entity references unless necessary e.g. characters with special meaning (like < and &) as well as control or “invisible” characters (like no-break spaces).
 
-###CSS Formatting Rules
+### CSS Formatting Rules
 
 
     - The code does not have trailing white spaces.
@@ -139,7 +139,7 @@ Note: You can simulate Mobile Devices with Device Mode in Chrome DevTools.
     - Code always put a blank line (two line breaks) between rules.
     - Code uses consistent quotation marks for attribute selectors or property values (single vs. double).
 
-###CSS Style Rules
+### CSS Style Rules
 
 
     - The code uses meaningful or generic ID and class names that are as short as possible, but as long as necessary.
@@ -150,7 +150,7 @@ Note: You can simulate Mobile Devices with Device Mode in Chrome DevTools.
     - [Optional] Code uses 3-character hexadecimal notation where possible.
     - [Optional] Code separates words in ID and class names by a hyphen.
 
-##Suggestions to Make Your Project Stand Out!
+## Suggestions to Make Your Project Stand Out!
 
     - Custom Text: You are welcome to use Lorem ipsum or other placeholder text in your blog and blog posts, but putting in real, custom text can make your project look even more impressive!
     - Pattern - Related Articles: Add 2 to 3 fake blog post references after the blog post ends (i.e. to older blog posts)
