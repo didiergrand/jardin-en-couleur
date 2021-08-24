@@ -1,0 +1,114 @@
+#blogposts-main #blogposts {
+  grid-area: blogposts;
+}
+
+#blogposts-main aside {
+  grid-area: aside;
+  margin: 0 10px;
+}
+
+#blogposts-main aside>section {
+  margin: 80px 0;
+}
+
+/* recent blogs section */
+#blogposts {
+  margin: 0 10px;
+  padding-bottom: 80px;
+}
+
+#page-title {
+  background-color: var(--tertiary-color);
+  padding: 50px;
+  margin: 0;
+}
+
+#small-cards .small-card {
+  display: grid;
+  margin: 80px 0;
+  position: relative;
+  text-decoration: none;
+}
+
+#small-cards .small-card:after {
+  content: "";
+  display: block;
+  position: absolute;
+  background-color: #eee;
+  border-radius: 100%;
+  width: 220px;
+  height: 220px;
+  z-index: -1;
+  opacity: 0.6;
+  bottom: 140px;
+  left: -30px;
+}
+
+#small-cards .small-card.color-bleuet:after {
+  background-color: #D6DAFF;
+}
+
+#small-cards .small-card.color-campanule:after {
+  background-color: #EDBDA8;
+}
+
+#small-cards .small-card.color-myrtille:after {
+  background-color: #B3D2CD;
+}
+
+#small-cards img {
+  max-width: 500px;
+  width: 100%;
+}
+
+#small-cards .small-card>div {
+  padding: 0 20px;
+}
+
+@media (min-width:600px) {
+  #blogposts-main h3 {
+    margin: 0 0 10px 0;
+  }
+
+  #small-cards .small-card {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: "img text text text";
+  }
+
+  #small-cards img {
+    grid-area: img;
+  }
+
+  #small-cards .small-card>div {
+    grid-area: text;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #small-cards .small-card:after {
+    width: 220px;
+    height: 220px;
+    top: 10px;
+    left: 50px;
+  }
+}
+
+@media(min-width:1000px) {
+  #blogposts-main {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-areas: "blogposts blogposts blogposts blogposts blogposts blogposts aside aside";
+    max-width: 1300px;
+    margin: 0 auto;
+  }
+
+  #small-cards .small-card {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: "img text text text text";
+  }
+
+  #small-cards .small-card>div {
+    padding: 0 40px;
+  }
+}
